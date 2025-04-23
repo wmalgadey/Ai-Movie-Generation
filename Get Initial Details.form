@@ -1,0 +1,32 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "6ad2448"
+  },
+  "schemaVersion": 18,
+  "id": "get-initial-details-12k5dt3",
+  "components": [
+    {
+      "text": "# So, You've Got a Movie Idea",
+      "type": "text",
+      "layout": {
+        "row": "Row_0yeh4c5",
+        "columns": null
+      },
+      "id": "Field_1dyk3jv"
+    },
+    {
+      "label": "Describe your Idea",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1mpyxf4",
+        "columns": null
+      },
+      "id": "Field_0peosrs",
+      "key": "movieIdea"
+    }
+  ],
+  "type": "default"
+}
