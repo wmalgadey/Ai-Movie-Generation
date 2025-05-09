@@ -1,0 +1,70 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "85ff08d"
+  },
+  "schemaVersion": 18,
+  "id": "Form_11vpxfs",
+  "components": [
+    {
+      "text": "# Turn a Movie Idea into Reality",
+      "type": "text",
+      "layout": {
+        "row": "Row_0kctfjj",
+        "columns": null
+      },
+      "id": "Field_1fb64ct"
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bv6jno",
+        "columns": null
+      },
+      "id": "Field_0zvpsnm",
+      "key": "userName",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Your Email",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0bv6jno",
+        "columns": null
+      },
+      "id": "Field_157ewe5",
+      "key": "userEmail",
+      "validate": {
+        "required": true,
+        "validationType": "email"
+      }
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_1mmv7ws",
+        "columns": null
+      },
+      "id": "Field_1yxgp18"
+    },
+    {
+      "label": "Your Movie Idea",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1q07n63",
+        "columns": null
+      },
+      "id": "Field_1mil0cg",
+      "key": "movieIdea",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default"
+}

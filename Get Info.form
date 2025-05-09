@@ -1,0 +1,41 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "85ff08d"
+  },
+  "schemaVersion": 18,
+  "id": "get-info-1uwviz9",
+  "components": [
+    {
+      "text": "# Here's your Movie Idea",
+      "type": "text",
+      "layout": {
+        "row": "Row_1cf15gy",
+        "columns": null
+      },
+      "id": "Field_0x07cmm"
+    },
+    {
+      "text": "{{movieDetails}}",
+      "type": "text",
+      "layout": {
+        "row": "Row_003o23w",
+        "columns": null
+      },
+      "id": "Field_0qo53mj"
+    },
+    {
+      "label": "What do you think of this",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_19vdk95",
+        "columns": null
+      },
+      "id": "Field_1qfk0x1",
+      "key": "humanFeedback"
+    }
+  ],
+  "type": "default"
+}
