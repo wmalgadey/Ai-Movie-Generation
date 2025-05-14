@@ -3,10 +3,10 @@
   "executionPlatformVersion": "8.7.0",
   "exporter": {
     "name": "Camunda Web Modeler",
-    "version": "85ff08d"
+    "version": "1e1176c"
   },
   "schemaVersion": 18,
-  "id": "get-info-1uwviz9",
+  "id": "get-info-1uwviz9-ai",
   "components": [
     {
       "text": "# Here's your Movie Idea",
